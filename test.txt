@@ -1,4 +1,4 @@
 hello world
 soucretree
 develop
-master do sth
+develop do sth
