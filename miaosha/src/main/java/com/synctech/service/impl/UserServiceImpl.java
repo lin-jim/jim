@@ -23,13 +23,9 @@ public class UserServiceImpl implements UserService{
 	@Transactional
 	@Override
 	public void insert() {
-		User u1 = new User();
-		u1.setId(2);
-		u1.setName("222");
+		User u1 = User.builder().id(1).name("1111").build();
 		userDao.insert(u1);
-		User u2 = new User();
-		u2.setId(1);
-		u2.setName("111");
+		User u2 = User.builder().id(2).name("2222").build();
 		userDao.insert(u2);
 	}
 
