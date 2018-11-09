@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 hello world
 soucretree
 develop
 develop do sth
 develop第一次新增内容
 develop第二次新增内容
+=======
+hello world
+git
+>>>>>>> 上传到github
